@@ -1,0 +1,1215 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+    border-bottom: 1px solid white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
+
+    
+
+}
+nav ul li {
+    display: inline;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+
+nav .item i{
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav label{
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~nav ul{
+    left: -1px;
+    transition: all 2s;
+}
+
+.support{
+    display: block;
+}
+.support1{
+    margin-top: -50px;
+}
+.menu{
+    margin-top: -47px;
+}
+
+@media screen and (max-width:600px) {
+    
+nav label{
+    display: block;
+}
+nav{
+    height: 80px;
+}
+nav .item{
+    display: none;
+}
+nav ul{
+    position: absolute;
+    top: 64px;
+    width: 110px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    left: -1000px;
+    width: 600px;
+
+    
+}
+nav ul li{
+    justify-content: center;
+    margin-left: 200px;
+    color: blue;
+
+
+}
+
+
+.fa-bars{
+    margin-left: 350px;
+    color: white;
+}
+.eshop{
+
+    margin-left: 300px;
+}
+
+.contact{
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+    position: absolute;
+    
+    
+    }
+.fa-shop{
+
+margin-left: 200px;
+    }
+
+
+.menu{
+    margin-top: 5px;
+
+
+
+}
+
+
+
+}
+.top img{
+
+    animation-name: block1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    
+    border: 1px solid black;
+     
+}
+
+@keyframes block1{
+    0%{
+        top: 0px;
+        right: 400px;
+        
+    }
+    
+    50%{
+        top: 100px;
+        right:  400px;
+        
+        
+    }
+
+    100%{
+        top: -10px;
+        right: 400px;
+        
+        
+    }
+}
+
+
+
+.bgimage{
+    width: 100%;
+    height: auto;
+background-color: skyblue;
+
+
+
+
+}
+.home{
+justify-content: center;
+
+
+
+
+
+}
+.home h1{
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+
+.home button{
+    width: 130px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+
+
+    margin-top: 10px;
+}
+
+.home button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.ekart img{
+    height: 110px;
+    position: absolute;
+    width: 150px;
+    background-color: red;
+    animation-name: block;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 400px;
+    
+}
+
+
+@keyframes block{
+    0%{
+        top: 500px;
+        left: 500px;
+        
+    }
+    
+    50%{
+        top: 500px;
+        left: 1480px;
+        
+        
+    }
+
+    100%{
+        top: 500px;
+        left: -10px;
+        
+        
+    }
+}
+
+
+
+.fa-star{
+    color: orange;
+}
+
+ 
+.fa-beat{
+    color: red;
+    font-weight: bold;
+
+}
+
+.fa-thumbs-up{
+    color: blue;
+}
+
+
+.facebook i{
+
+ color: blue;
+ font-size: 30px;
+margin-top: 50px; 
+margin-left: 120px;
+}
+
+.youtube i{
+
+    color: red;
+    font-size: 30px;
+   margin-top: 50px; 
+   margin-left: 10px;
+   }
+
+   .instgram i{
+
+    color: red;
+    font-size: 30px;
+   margin-top: 50px; 
+   margin-left: 2px;
+   }   
+
+.black{
+background-image: url(image/black1.jpg);
+height: auto;
+width: 100%;
+display: flex;
+
+
+}
+
+
+
+
+@keyframes block1{
+    0%{
+        top: 0px;
+        left: 0px;
+        
+    }
+    
+    50%{
+        top: 100px;
+        left: 0px;
+        
+        
+    }
+
+    100%{
+        top: -10px;
+        left: 0px;
+        
+        
+    }
+}
+
+
+
+.card{
+
+width: 340px;
+height: 500px;
+background-color: white;
+border: 1px solid red;
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+
+}
+.card h1{
+font-size: 25px;
+margin:15px;
+padding: 15px;
+
+}
+
+.card1{
+
+    width: 440px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    }
+
+    .card1 h1{
+        font-size: 25px;
+        margin:15px;
+        padding: 15px;
+        color: black;
+        
+        }   
+
+        .card2{
+
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            border: 1px solid black;
+            
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            
+            }
+        
+            .card2 h1{
+                font-size: 25px;
+                margin:15px;
+                padding: 15px;
+                
+                }
+
+
+                
+        .card3{
+      
+            width: 1450px;
+            height: 500px;
+            background-color: white;
+            border: 1px solid blue;
+            margin-top: 20px;
+        
+            
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            
+            }
+        
+            .card3 h1{
+                font-size: 25px;
+                margin:15px;
+                padding: 15px;
+                
+                }
+
+.flower {
+    margin-top: 100px;
+    width:1450px;
+    height:700px;
+    position: absolute;
+    background-color: #Add8e6; 
+    border: 1px solid black;   
+}
+.mobilebg{
+width: 100%;
+height: auto;
+background-color: #Add8e6; 
+position: absolute;
+
+}
+
+
+.mobilebg button{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 20%;
+}
+
+
+
+.flower button{
+height: 60px;
+width: 110px;
+background-color: yellow;
+border-radius: 20%;
+margin-top: 20px;
+}
+
+
+
+.cart1 i{
+    font-size: 40px;
+    position: absolute;
+
+    animation-name: block;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+    margin-left: 80px;
+    
+
+}
+
+.block{
+width: 1480px;
+height: 400px;
+border: 1px solid red;
+
+}
+
+
+.blueflower{
+    background-image: url(blueflower.jpg);
+    width: 100%;
+    height: auto;
+
+    
+}
+.skybluecolor{
+
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+    position: absolute;
+    margin-top: 70px;
+    
+    
+    
+    }
+
+@keyframes block{
+    0%{
+        top: 350px;
+        left: 0px;
+        
+    }
+    
+    50%{
+        top: 350px;
+        left: 510px;
+    }
+
+    100%{
+        top: 350px;
+        left: -0px;
+    }
+
+    
+}
+
+
+watchbox{
+width: 1450px;
+height: 300px;
+margin-top: 800px;
+border: 1px solid black;
+background-color: white;
+position: absolute;
+
+
+}
+
+.box{
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            justify-content: center;
+}
+
+.box i{
+font-size: 50px;
+color: orange;
+padding: 20px;
+
+}
+
+
+.facebook i{
+
+    color: blue;
+    font-size: 30px;
+    
+    }
+    
+    .youtube i{
+    
+       color: red;
+       font-size: 30px;
+       margin-left: 10px;
+       margin-right: 10px;
+    
+      }
+    
+      .instgram i{
+    
+       color: red;
+       font-size: 30px;
+      
+      
+      }   
+    
+    
+    .fa-twitter{
+    
+        color: blue;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }  
+    
+    .fa-envelope{
+        color: red;
+       font-size: 30px;
+    
+    }
+    
+    .twitter .fa-twitter:hover{
+    
+        scale: 1.3;
+    }
+    
+    
+    .email .fa-envelope:hover{
+      scale: 1.3;  
+    }
+    
+    
+    .linkdin .fa-linkedin:hover{
+        scale: 1.3;
+    }
+    
+    .fa-linkedin{
+    
+        
+        color: blue;
+       font-size: 30px;
+    }
+    
+    
+    
+    
+    .contact{
+    
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+    
+    
+    
+    }
+    
+    
+    
+    
+    .bgwhite{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+    
+    }
+
+    .footer{
+
+margin-top: 500px;
+
+    }
+
+
+    .bgblack1{
+        background-color:black;
+height: auto;
+width: 100%;
+margin-top: 50px;
+
+
+    }
+
+
+.home1{
+color: white;
+margin-top: 100px;
+
+}    
+.home1 button:hover{
+scale: 1.1;
+background-color: red;
+
+
+}
+
+
+
+.cart1 i{
+font-size: 50px;
+
+    color: blue;
+}
+
+.myfont {
+
+display: flex; 
+margin-left: -45px; 
+
+}    
+
+.online{
+    margin-top: 100px;
+    height: 500px; 
+    width: 700px; 
+}
+
+
+
+
+    @media screen and ( max-width:600px){
+        
+        .bottom{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    
+    }
+    .skybluecolor{
+
+        width: 100%;
+        height: auto;
+        background-color: skyblue;
+        position: absolute;
+        margin-top: 168px;
+        
+        
+        
+        }
+
+    }
+    .online{
+        height: 500px; 
+        width: 550px; 
+    }
+    .card{
+
+        margin-bottom: 10px;
+        margin-left: 20px;
+        
+        }
+        .card1{
+
+          margin-left: 20px;
+          margin-bottom: 10px;
+            
+            }   
+    
+
+    .facebook i{
+
+        margin-left: 50px;
+    }
+
+
+    
+.support{
+    display: none;
+}
+    
+    .shops{
+        color: white;
+        margin-left: 10px;
+    }
+
+   .bgimage{
+
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+    
+   }
+
+    
+    
+   
+    
+    .shops{
+        color: white;
+    }
+    
+    .Category{
+    
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .support{
+    color: white; 
+    display: block;
+    }
+    
+    
+    .underform{
+    margin-top: 100px;
+    height: 550px;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 10%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+    
+    
+    }
+    
+    input{
+    width: 350px;
+    padding: 12px;
+    border: 2px solid blue;
+    
+    }
+    label{
+        margin-right: 300px;
+    }
+    
+    .enqury button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 20%;
+    color: blue;
+    font-size: 15px;
+    }
+    
+    button:hover{
+    scale: 1.3;
+    background-color: blue;
+    color: white;
+    
+    }
+    
+    
+    
+    .bottom{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    
+    }
+    .bigbox{
+
+        display: flex;
+         flex-wrap: wrap;
+          justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        }
+        
+     
+    .footer{
+
+        margin-top: 1000px;
+        
+            }   
+        
+        .hovercard{
+        
+        margin-left: 40px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        }
+
+        
+        .hovercard1{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard2{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard3{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        }
+        .hovercard4{
+        
+        margin-left: 40px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard5{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard6{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard7{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        
+        .hovercard8{
+        
+        margin-left: 40px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard9{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard10{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard11{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        
+        .hovercard:hover{
+            scale: 1.1;
+        }
+        .hovercard1:hover{
+            scale: 1.1;
+        }
+        .hovercard2:hover{
+            scale: 1.1;
+        }
+        .hovercard3:hover{
+            scale: 1.1;
+        }
+        .hovercard4:hover{
+            scale: 1.1;
+        }
+        .hovercard5:hover{
+            scale: 1.1;
+        }
+        .hovercard6:hover{
+            scale: 1.1;
+        }
+        .hovercard7:hover{
+            scale: 1.1;
+        }
+        .hovercard8:hover{
+            scale: 1.1;
+        }
+        .hovercard9:hover{
+            scale: 1.1;
+        }
+        .hovercard10:hover{
+            scale: 1.1;
+        }
+        .hovercard11:hover{
+            scale: 1.1;
+        }
+        
+        
+        .cardbg{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        
+        
+        }
+        .id1{
+        height: auto;
+        width: 55%;
+        background-image: url(flowerblue.jpg);
+        
+        }
+        
+        .bgimage1{
+        height:auto;
+        width: 100%;
+        background-color: #87ceeb;
+        border: 1px soild black;
+        
+        
+        }
+        
+        .blueshow img{
+          height:500px;
+          width:500px;
+        margin-top: 80px;
+        }
+        
+        .whitetxt{
+          margin-top: 200px;
+        }
+        
+        .whitetxt button{
+          background-color: yellow;
+          height: 50px;
+          width: 150px;
+          border-radius: 20%;
+        }
+        
+        .topbox{
+        margin-top: 50px; 
+    
+        }
+        .bgimage1{
+            height: auto;
+            width: 100%;
+            background-color: skyblue;
+            }
+            
+            .mycontact{
+               color: black; 
+               margin-top: 170px;
+               
+            }
+            .mycontact button{
+                background-color: blue;
+                color: white;
+            }
+        
+        @media screen and (max-width:600px) {
+          
+          .bgimage1{
+        height:auto;
+        width: 100%;
+        background-color: #87ceeb;
+        border: 1px soild black;
+        overflow: hidden;
+        
+        
+        }
+        .underform{
+margin-top: 100px;
+
+        }
+
+        .headphone{
+
+        margin-top:0px;
+
+        }
+        .support{
+            display: none;
+        }
+        .bgimge1{
+
+            margin-top: 250px;
+        }
+
+        .box{
+            margin-top: 50px; 
+            margin-left: -20px;
+        
+            }
+        
+        .blueshow img{
+          height:400px;
+          width:400px;
+          margin-top: 150px;
+          
+          
+        }
+        
+        
+        .topbox{
+        margin-top: 50px; 
+        margin-left: 100px;
+        }
+        
+        
+        .hovercard{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard1{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard2{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard3{
+        
+        margin-left: 20px;
+        
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard4{
+            margin-top: -25px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard5{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard6{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard7{
+        
+        margin-left: 20px;
+        
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard8{
+        margin-top: -25px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        
+        .hovercard9{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard10{
+        
+        margin-left: 20px;
+        margin-bottom: 5px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard11{
+        
+        margin-left: 20px;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        
+        }
+        .hovercard1:hover{
+            scale: 1.1;
+        }
+        
+        }
+
+
+        .headphone{
+            margin-top: 50px;
+            height:auto;
+            width: 100%;
+            background-color: white;
+            border: 1px soild black;
+            
+            
+            }
+            .blueshow img{
+              height:400px;
+              width:400px
+            }
+            
+            .fa-greater-than{
+                
+                color: white;
+                padding: 18px;
+            }
+            button{
+                height: 45px;
+                width: 120px;
+                border-radius: 30px;
+                
+                background-color: white;
+                color: blue;
+                
+            
+            }
+            button:hover{
+                scale: 1.1;
+                background-color: yellow;
+            }
+            
+            .fa-bag-shopping{
+            color: blue;
+            
+            }
+            
+            .beg h1{
+            margin-top: -50px;
+            
+            }
